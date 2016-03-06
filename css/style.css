@@ -13,7 +13,7 @@ body{
     top: 50%;
     margin-top: -150px;
 }
-my-img {
+.my-img {
     background-image: url(https://gw.alicdn.com/tps/TB1SD1ALVXXXXXlXXXXXXXXXXXX-180-180.jpg);
     height: 180px;
     width: 180px;
