@@ -24,8 +24,11 @@ body{
 }
 
 .profile .fellow {
-    position: relative;
+    position: absolute;
     height: 100px;
+    width: 300px;
+    left: 50%;
+    margin-left: -150px;
     margin-top: 200px;
     font-size: 0;
 }
