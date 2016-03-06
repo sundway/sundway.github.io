@@ -22,21 +22,28 @@ body{
     left: 50%;
     margin-left: -90px;
 }
+
 .profile .fellow {
+    position: relative;
     height: 100px;
     margin-top: 200px;
+}
+
+
+.profile .fellow a.weibo {
+    background-image: url(http://img.blog.csdn.net/20150614172908197);
+}
+
+.profile .fellow a.github{
+	
 }
 
 .profile .fellow a {
     display: inline-block;
     width: 25%;
     height: 100%;
-}
-.profile .fellow a.weibo{
-	background-img: url(http://img.blog.csdn.net/20150614172908197);
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
 
-.profile .fellow a.github{
-	
-}
 
