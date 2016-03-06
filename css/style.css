@@ -54,9 +54,13 @@ body{
     background-image: url(https://gw.alicdn.com/tps/TB1EqShLVXXXXaAXVXXXXXXXXXX-96-96.png);	
 }
 
+.profile .follow a.mail{
+    background-image: url(http://img.blog.csdn.net/20160306213855781);	
+}
+
 .profile .follow a {
     display: inline-block;
-    width: 20%;
+    width: 16.6667%;
     height: 100%;
     background-repeat: no-repeat;
     background-position: 50%;
