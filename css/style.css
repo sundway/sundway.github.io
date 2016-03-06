@@ -32,3 +32,7 @@ body{
     width: 25%;
     height: 100%;
 }
+.profile .fellow a.weibo{
+	background-img: url(http://img.blog.csdn.net/20150614172908197);
+}
+
