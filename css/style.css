@@ -26,3 +26,9 @@ body{
     height: 100px;
     margin-top: 200px;
 }
+
+.profile .fellow a {
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+}
