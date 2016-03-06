@@ -5,3 +5,11 @@ html,body{
 body{
 	background-image: url(https://gw.alicdn.com/tps/TB1bpWsLVXXXXbXXpXXXXXXXXXX-1500-998.jpg);
 }
+.profile {
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    margin-top: -150px;
+}
