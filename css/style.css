@@ -23,7 +23,7 @@ body{
     margin-left: -90px;
 }
 
-.profile .fellow {
+.profile .follow {
     position: absolute;
     height: 100px;
     width: 300px;
@@ -34,27 +34,27 @@ body{
 }
 
 
-.profile .fellow a.weibo {
+.profile .follow a.weibo {
     background-image: url(http://img.blog.csdn.net/20150614172908197);
 }
 
-.profile .fellow a.github{
+.profile .follow a.github{
     background-image: url(http://img.blog.csdn.net/20150614180451327);	
 }
 
-.profile .fellow a.segmentfault{
+.profile .follow a.segmentfault{
     background-image: url(http://img.blog.csdn.net/20150614180322421);	
 }
 
-.profile .fellow a.csdn{
+.profile .follow a.csdn{
     background-image: url(http://c.csdnimg.cn/public/favicon.ico);	
 }
 
-.profile .fellow a.mail{
+.profile .follow a.mail{
     background-image: url(https://gw.alicdn.com/tps/TB1EqShLVXXXXaAXVXXXXXXXXXX-96-96.png);	
 }
 
-.profile .fellow a {
+.profile .follow a {
     display: inline-block;
     width: 20%;
     height: 100%;
