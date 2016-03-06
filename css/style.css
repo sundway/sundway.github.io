@@ -27,6 +27,7 @@ body{
     position: relative;
     height: 100px;
     margin-top: 200px;
+    font-size: 0;
 }
 
 
@@ -35,6 +36,14 @@ body{
 }
 
 .profile .fellow a.github{
+    background-image: url(http://img.blog.csdn.net/20150614180451327);	
+}
+
+.profile .fellow a.segmentfault{
+    background-image: url(http://img.blog.csdn.net/20150614180322421);	
+}
+
+.profile .fellow a.csdn{
     background-image: url(http://img.blog.csdn.net/20150614180451327);	
 }
 
