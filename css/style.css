@@ -1,1 +1,7 @@
-
+html,body{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(https://gw.alicdn.com/tps/TB1bpWsLVXXXXbXXpXXXXXXXXXX-1500-998.jpg) no-repeat contain;
+}
