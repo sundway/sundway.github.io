@@ -50,6 +50,10 @@ body{
     background-image: url(http://c.csdnimg.cn/public/favicon.ico);	
 }
 
+.profile .fellow a.csdn{
+    background-image: url(https://gw.alicdn.com/tps/TB1NJSBLVXXXXXGXXXXXXXXXXXX-96-96.png);	
+}
+
 .profile .fellow a {
     display: inline-block;
     width: 25%;
