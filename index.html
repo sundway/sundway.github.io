@@ -7,8 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <video controls="" autoplay="autoplay" name="media">
-        <source src="https://jujutu.oss-cn-beijing.aliyuncs.com/%E8%8C%85%E5%92%8C%E7%BA%BF%2012.mp3" type="audio/mpeg">
-    </video>
+    <audio src="https://jujutu.oss-cn-beijing.aliyuncs.com/%E8%8C%85%E5%92%8C%E7%BA%BF%2012.mp3" id="audios" autoplay preload loop="loop"></audio> 
 </body>
+
+<script>
+    function audioAutoPlay(id){  
+        var audio = document.getElementById(id),
+            play = function(){  
+                audio.play();  
+                document.removeEventListener("touchstart",play, false);  
+            };  
+        audio.play();  
+        document.addEventListener("WeixinJSBridgeReady", function () {  
+            play();  
+        }, false);  
+        document.addEventListener('YixinJSBridgeReady', function() {  
+            play();  
+        }, false);  
+        document.addEventListener("touchstart",play, false);  
+    }  
+    audioAutoPlay('audios');
+</script>
 </html>
